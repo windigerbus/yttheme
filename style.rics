@@ -1,8 +1,5 @@
 @font-face {
-  font-family: "MySanFrancisco";
-  src: url("https://raw.githubusercontent.com/sahibjotsaggu/San-Francisco-Pro-Fonts/refs/heads/master/SF-Pro-Display-Bold.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
+  font-family: system-ui;
 }
 
 /* =========================================
@@ -21,7 +18,7 @@ blyrics-hide-instrumental-only = true;
    ========================================= */
 :root {
   /* --- 1. GLASS & BLUR SETTINGS --- */
-  --lucid-glass-blur: 25px; /* Master blur amount for the top nav, player bar, and menus */
+  --lucid-glass-blur: 5px; /* Master blur amount for the top nav, player bar, and menus */
   
   --lucid-nav-glass-bg: rgba(30, 30, 30, 0); /* Top navigation bar background */
   --lucid-player-glass-bg: rgba(20, 20, 20, 0.2); /* Bottom player bar background */
@@ -43,7 +40,7 @@ blyrics-hide-instrumental-only = true;
   /* --- 5. BETTERLYRICS NATIVE ENGINE SETTINGS --- */
   --blyrics-lyric-active-color: color(display-p3 1 1 1 / 1);
   --blyrics-lyric-inactive-color: color(display-p3 1 1 1 / 0.2);
-  --blyrics-font-family: "MySanFrancisco", "SF Pro", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --blyrics-font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --blyrics-lyric-scroll-duration: 800ms;
   --blyrics-lyric-scroll-timing-function: cubic-bezier(0.45, 0, 0.15, 1);
   --blyrics-scale-transition-duration: 0.6s;
@@ -59,8 +56,11 @@ blyrics-hide-instrumental-only = true;
   --blyrics-fullscreen-panel-size: 55%;
   --blyrics-fullscreen-video-panel-size: 36%;
   --blyrics-font-size: 3rem;
-  --yt-album-size: 500px;
-  
+  --yt-album-size: 600px;
+}
+
+* {
+  border-radius: 0px;
 }
 
 @media (min-width: 1279px) {
