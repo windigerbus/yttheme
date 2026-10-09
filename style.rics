@@ -18,7 +18,7 @@ blyrics-hide-instrumental-only = true;
    ========================================= */
 :root {
   /* --- 1. GLASS & BLUR SETTINGS --- */
-  --lucid-glass-blur: 5px; /* Master blur amount for the top nav, player bar, and menus */
+  --lucid-glass-blur: 50px; /* Master blur amount for the top nav, player bar, and menus */
   
   --lucid-nav-glass-bg: rgba(30, 30, 30, 0); /* Top navigation bar background */
   --lucid-player-glass-bg: rgba(20, 20, 20, 0.2); /* Bottom player bar background */
